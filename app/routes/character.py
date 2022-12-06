@@ -2,7 +2,7 @@ from flask import Blueprint, render_template,redirect,url_for,flash
 from app.db import DabataseConnection
 from app.models.character import Character
 import requests
-
+#SUBIENDO PRUEBAS
 personaje_router = Blueprint('personaje_router', __name__)
 db = DabataseConnection(5)
 
