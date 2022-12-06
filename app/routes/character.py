@@ -3,6 +3,7 @@ from app.db import DabataseConnection
 from app.models.character import Character
 import requests
 #SUBIENDO PRUEBAS
+#CAMBIE NOMBRE DE REPOSITORIO
 personaje_router = Blueprint('personaje_router', __name__)
 db = DabataseConnection(5)
 
